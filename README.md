@@ -29,7 +29,7 @@ Professor - André Rafael
 <p align="center">
   <a href="">Brafé 1</a> •
   <a href="">Brafé 2</a> •
-  <a href="">Brafé 3</a> •
+  <a href="">Brafé 3</a>
 </p>
 
 
