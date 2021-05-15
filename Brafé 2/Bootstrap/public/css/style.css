@@ -22,8 +22,7 @@ body {
     box-sizing: border-box;
 }
 
-/* MENU */
-
+/* Menu */
 .header-informacoes {
     font-size: 0.875em;
     background: #d6d3c8;
@@ -65,8 +64,7 @@ body {
     content: "";
 }
 
-/* FILTRO */
-
+/* Filtro */
 .filtro {
     background: #e7e4d8;
     border: 3px solid #d6d3c8;
@@ -131,14 +129,7 @@ body {
     box-shadow: 20px 0 0 0 currentColor, 40px 0 0 0 currentColor, 60px 0 0 0 currentColor, 80px 0 0 0 currentColor;
 }
 
-@media (max-width: 768px) {
-    .filtro {
-        display: none;
-    }
-}
-
-/*PRODUTOS*/
-
+/*Produtos*/
 .produtos h1 {
     font-size: 3em;
     font-weight: normal;
@@ -169,8 +160,15 @@ body {
 .footer {
     background: #e7e4d8;
     text-align: center;
-    padding: 60px 0;
+    padding: 60px 10px;
     font-size: 1.125em;
     line-height: 1.4em;
     margin-top: 80px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .filtro {
+        display: none;
+    }
 }
