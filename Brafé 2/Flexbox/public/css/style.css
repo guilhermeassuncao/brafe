@@ -26,7 +26,7 @@ body {
 .header-informacoes {
     font-size: 0.875em;
     background: #d6d3c8;
-    padding: 5px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -168,5 +168,15 @@ body {
 @media (max-width: 739px) {
     .filtro {
         display: none;
+    }
+
+    .flex-row {
+        flex-direction: column;
+    }
+
+    .flex-item-6 {
+        max-width: 100%;
+        margin-right: 16px;
+        margin-left: 16px;
     }
 }

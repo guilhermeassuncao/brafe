@@ -296,6 +296,7 @@ h2.produtos-mineiro::before {
 
 .footer-img {
     margin: 0 auto;
+    padding-right: 10px;
 }
 
 .footer p {
@@ -330,9 +331,18 @@ h2.produtos-mineiro::before {
         padding: 60px 0;
     }
 
+    .intro h1 {
+        font-size: 2em;
+    }
+
     .sobre-item {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .sobre > p {
+        margin-right: 16px;
+        margin-left: 16px;
     }
 
     .produtos-item {
@@ -354,8 +364,12 @@ h2.produtos-mineiro::before {
         margin: 0;
     }
 
-    .footer p,
-    .footer-img {
+    .footer p{
         margin: 10px 0;
+    }
+
+    .footer-img{
+        margin-top: 16px;
+        padding-right: 0;
     }
 }
