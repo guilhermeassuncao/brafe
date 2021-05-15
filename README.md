@@ -10,13 +10,32 @@
 
 ## :bookmark_tabs: Sobre
 
-Projeto desenvolvido no curso CSS Avançado Posicionamento
+Projeto desenvolvido no curso CSS Avançado Posicionamento (CSS Puro e Flexbox)
 
 Intituição - Origamid
 
 Professor - André Rafael
 
+<p align="center">
+  CSS Puro
+  <a href="">Brafé 1</a> •
+  <a href="">Brafé 2</a> •
+  <a href="">Brafé 3</a>
+</p>
 
+<p align="center">
+  Flexbox
+  <a href="">Brafé 1</a> •
+  <a href="">Brafé 2</a> •
+  <a href="">Brafé 3</a>
+</p>
+
+<p align="center">
+  Bootstrap
+  <a href="">Brafé 1</a> •
+  <a href="">Brafé 2</a> •
+  <a href="">Brafé 3</a>
+</p>
 
 <br>
 
@@ -25,12 +44,6 @@ Professor - André Rafael
 - HTML5
 - CSS3
 - Bootstrap
-
-<p align="center">
-  <a href="">Brafé 1</a> •
-  <a href="">Brafé 2</a> •
-  <a href="">Brafé 3</a>
-</p>
 
 
 <br>
