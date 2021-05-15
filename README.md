@@ -16,14 +16,7 @@ Intituição - Origamid
 
 Professor - André Rafael
 
-<p align="center">
-  <a href="#blush-why">Why</a> •
-  <a href="#dizzy-roadmap">Roadmap</a> •
-  <a href="#zap-tech-stack">Tech Stack</a> •
-  <a href="#handshake-contributing">Contributing</a> •  
-  <a href="#tophat-license">License</a> •
-  <a href="#art-about-me">About Me</a>
-</p>
+
 
 <br>
 
