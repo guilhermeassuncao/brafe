@@ -219,10 +219,6 @@ a {
     .side-nav {
         width: 200px;
     }
-
-    .produtos {
-        width: calc(100% - 200px);
-    }
 }
 
 @media (max-width: 739px) {
