@@ -20,7 +20,6 @@ Professor - André Rafael
   CSS Puro
 </p>
 <p align="center">
-  CSS Puro
   <a href="">Brafé 1</a> •
   <a href="">Brafé 2</a> •
   <a href="">Brafé 3</a>
@@ -30,7 +29,6 @@ Professor - André Rafael
   Flexbox
 </p>
 <p align="center">
-  Flexbox
   <a href="">Brafé 1</a> •
   <a href="">Brafé 2</a> •
   <a href="">Brafé 3</a>
@@ -40,7 +38,6 @@ Professor - André Rafael
   Bootstrap
 </p>
 <p align="center">
-  Bootstrap
   <a href="">Brafé 1</a> •
   <a href="">Brafé 2</a> •
   <a href="">Brafé 3</a>
