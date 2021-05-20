@@ -58,7 +58,7 @@ a {
 }
 
 /* Main */
-.main-container{
+.main-container {
     display: flex;
 }
 
@@ -210,7 +210,7 @@ a {
         margin: 15px 0;
     }
 
-    .main-container{
+    .main-container {
         flex-direction: column;
     }
 
@@ -248,8 +248,8 @@ a {
     }
 
     .produtos header {
-       flex-direction: column;
-       align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .produtos h1 {
@@ -263,5 +263,4 @@ a {
     .produtos-item {
         flex-direction: column;
     }
-
 }

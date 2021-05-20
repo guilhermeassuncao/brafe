@@ -12,7 +12,9 @@
     flex-wrap: wrap;
 }
 
-.flex-item-4, .flex-item-6, .flex-item-8{
+.flex-item-4,
+.flex-item-6,
+.flex-item-8 {
     margin-left: 10px;
     margin-right: 10px;
     align-self: flex-start;
@@ -40,7 +42,8 @@
         flex-direction: column;
     }
 
-    .flex-item-4, .flex-item-8{
+    .flex-item-4,
+    .flex-item-8 {
         margin-left: 0;
         margin-right: 0;
         max-width: 100%;

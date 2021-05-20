@@ -170,7 +170,7 @@ a {
 
 /* Responsivo */
 @media (max-width: 767px) {
-    .header-logo{
+    .header-logo {
         margin-bottom: 16px;
     }
 

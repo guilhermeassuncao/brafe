@@ -22,7 +22,7 @@ body {
     box-sizing: border-box;
 }
 
-img{
+img {
     display: block;
     max-width: 100%;
 }
@@ -32,51 +32,52 @@ a {
 }
 
 /* Header */
-.header{
+.header {
     background: #d6d3c8;
     padding: 20px;
 }
 
-.header::after, .header::before {
-    content: '';
+.header::after,
+.header::before {
+    content: "";
     display: table;
     clear: both;
 }
 
-.header-logo{
+.header-logo {
     float: left;
 }
 
-.header-menu{
+.header-menu {
     float: right;
 }
 
-.header-menu li{
+.header-menu li {
     display: inline-block;
 }
 
-.header-menu li a{
+.header-menu li a {
     color: #252525;
     font-size: 1.125em;
     padding: 0 10px;
 }
 
-.header-menu li:first-child a{
+.header-menu li:first-child a {
     padding-left: 0;
 }
 
 /* Main */
-.main-container{
+.main-container {
     display: flex;
 }
 
 /* Side Nav */
-.side-nav{
+.side-nav {
     width: 300px;
     background: #252525;
 }
 
-.side-nav li a{
+.side-nav li a {
     display: block;
     color: #fff;
     border-bottom: 2px solid #484846;
@@ -84,38 +85,38 @@ a {
     padding: 20px;
 }
 
-.side-nav li a::before{
-    content: '';
+.side-nav li a::before {
+    content: "";
     display: inline-block;
     width: 24px;
     height: 24px;
     position: relative;
     top: 5px;
     margin-right: 15px;
-    background-image: url('../img/icones.png');
+    background-image: url("../img/icones.png");
 }
 
-.nav-contabilidade::before{
+.nav-contabilidade::before {
     background-position: 0 0;
 }
 
-.nav-produtos::before{
+.nav-produtos::before {
     background-position: 0 -24px;
 }
 
-.nav-paginas::before{
+.nav-paginas::before {
     background-position: 0 -48px;
 }
 
-.nav-plugins::before{
+.nav-plugins::before {
     background-position: 0 -72px;
 }
 
-.nav-formularios::before{
+.nav-formularios::before {
     background-position: 0 -96px;
 }
 
-.nav-hospedagens::before{
+.nav-hospedagens::before {
     background-position: 0 -120px;
 }
 
@@ -126,13 +127,14 @@ a {
     padding: 20px 30px;
 }
 
-.produtos header::after, .produtos header::before{
-    content: '';
+.produtos header::after,
+.produtos header::before {
+    content: "";
     display: table;
     clear: both;
 }
 
-.produtos h1{
+.produtos h1 {
     font-size: 2.25em;
     float: left;
 }
@@ -149,24 +151,25 @@ a {
     text-align: center;
 }
 
-.produtos-item{
+.produtos-item {
     background: #fff;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35);
     margin-top: 20px;
     position: relative;
 }
 
-.produtos-item::after, .produtos-item::before{
-    content: '';
+.produtos-item::after,
+.produtos-item::before {
+    content: "";
     display: table;
     clear: both;
 }
 
-.produtos-item img{
-  float: left;
+.produtos-item img {
+    float: left;
 }
 
-.produtos-item a{
+.produtos-item a {
     width: 24px;
     height: 24px;
     overflow: hidden;
@@ -174,67 +177,66 @@ a {
     position: absolute;
     right: 20px;
     top: 20px;
-    background: url('../img/edit.svg') no-repeat;
+    background: url("../img/edit.svg") no-repeat;
 }
 
-.produtos-item a:hover{
-    background: url('../img/edit-hover.svg') no-repeat;
+.produtos-item a:hover {
+    background: url("../img/edit-hover.svg") no-repeat;
 }
 
-.produtos-item ul{
+.produtos-item ul {
     float: left;
     padding: 0 20px;
     width: calc(100% - 140px);
 }
 
-.produtos-item ul li{
+.produtos-item ul li {
     padding: 10px 0;
     font-family: Courier, monospace;
     font-size: 1.125em;
     border-bottom: 1px solid #e7e4d8;
 }
 
-.produtos-item ul li:last-child{
+.produtos-item ul li:last-child {
     border: none;
 }
 
-.produtos-item span{
+.produtos-item span {
     font-weight: bold;
     width: 70px;
     display: inline-block;
 }
 
 /* Footer */
-.footer{
+.footer {
     background: #d6d3c8;
     text-align: center;
     padding: 60px 0;
     font-size: 1.125em;
     line-height: 1.4em;
-
 }
 
 /* Responsivo */
-@media (min-width: 740px) and (max-width: 980px)  {
+@media (min-width: 740px) and (max-width: 980px) {
     .side-nav {
         width: 200px;
     }
 }
 
 @media (max-width: 739px) {
-    .main-container{
+    .main-container {
         flex-direction: column;
     }
 
-    .header-logo{
+    .header-logo {
         float: none;
     }
 
-    .header-logo img{
+    .header-logo img {
         margin: 0 auto;
     }
 
-    .header-menu ul{
+    .header-menu ul {
         float: none;
         margin-top: 15px;
     }
