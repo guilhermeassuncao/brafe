@@ -35,7 +35,6 @@
     max-width: calc(66.666% - 20px);
 }
 
-/* Responsivo */
 @media (max-width: 739px) {
     .flex {
         max-width: 300px;

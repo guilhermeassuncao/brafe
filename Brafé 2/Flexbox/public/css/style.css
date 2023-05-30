@@ -1,4 +1,3 @@
-/* Reset */
 body,
 p,
 h1,
@@ -22,7 +21,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Menu */
 .header-informacoes {
     font-size: 0.875em;
     background: #d6d3c8;
@@ -56,15 +54,14 @@ body {
 }
 
 .header-menu li a::before {
-    content: "•";
+    content: '•';
     padding-right: 10px;
 }
 
 .header-menu li:first-child a::before {
-    content: "";
+    content: '';
 }
 
-/* Filtro */
 .filtro {
     background: #e7e4d8;
     border: 3px solid #d6d3c8;
@@ -89,7 +86,7 @@ body {
 }
 
 .filtro li::after {
-    content: "";
+    content: '';
     display: block;
     width: 20px;
     height: 20px;
@@ -127,7 +124,6 @@ body {
     box-shadow: 20px 0 0 0 currentColor, 40px 0 0 0 currentColor, 60px 0 0 0 currentColor, 80px 0 0 0 currentColor;
 }
 
-/*Produtos*/
 .produtos h1 {
     font-size: 3em;
     font-weight: normal;
@@ -164,7 +160,6 @@ body {
     margin-top: 80px;
 }
 
-/* Responsivo */
 @media (max-width: 739px) {
     .filtro {
         display: none;
